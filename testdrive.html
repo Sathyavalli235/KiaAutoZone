@@ -5,82 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kia Test Drive Booking</title>
     <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11" rel="stylesheet">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f3f3f3;
-            text-align: center;
-            padding: 50px;
-        }
-
-        .btn-primary {
-            padding: 12px 30px;
-            background: #ff0000;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: 0.4s;
-        }
-
-        .btn-primary:hover {
-            background: #b30000;
-        }
-
-        .modal {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 400px;
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-            z-index: 9999;
-        }
-
-        .modal-content {
-            text-align: center;
-        }
-
-        .close-btn {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            font-size: 25px;
-            cursor: pointer;
-            color: red;
-        }
-
-        form {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        input, select {
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-        }
-
-        button {
-            padding: 10px;
-            background: #ff0000;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 8px;
-            transition: 0.4s;
-        }
-
-        button:hover {
-            background: #b30000;
-        }
-    </style>
+     <script src="script.js" defer></script>
+      <link rel="stylesheet" href="testdrive.css">  
+  
 </head>
 <body>
 
@@ -117,34 +44,8 @@
     </div>
 </div>
 
-<script>
-function openModal() {
-    document.getElementById("testDriveModal").style.display = "block";
-}
-
-function closeModal() {
-    document.getElementById("testDriveModal").style.display = "none";
-}
-
-function bookTestDrive(e) {
-    e.preventDefault();
-    let name = document.getElementById("name").value;
-    let car = document.getElementById("carModel").value;
-
-    Swal.fire({
-        title: "Success 🎯!",
-        text: `Test Drive for ${car} is Booked Successfully, ${name} 🚗🔥`,
-        icon: "success",
-        timer: 3000
-    });
-
-    closeModal();
-}
-</script>
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </body>
 </html>
-
-
