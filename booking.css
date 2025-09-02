@@ -2,8 +2,6 @@
             margin: 0;
             font-family: Arial, sans-serif;
         }
-
-        /* Navbar Styling */
         .navbar {
             background-color: black;
             color: white;
@@ -110,7 +108,6 @@
             margin-top: 20px;
         }
 
-        /* Newsletter Form */
         .footer .newsletter input[type="email"] {
             width: 70%;
             padding: 10px;
@@ -128,3 +125,4 @@
             border-radius: 5px;
             font-size: 16px;
         }
+
