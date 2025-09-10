@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kia Test Drive Booking</title>
+    <link rel="icon" type="image/png" href="images/kia-logo.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11" rel="stylesheet">
+     <script src="script.js" defer></script>
+      <link rel="stylesheet" href="testdrive.css">  
+  
+</head>
+<body>
+
+<h1>Kia Showroom Test Drive Booking 🚗🔥</h1>
+
+<!-- Test Drive Button -->
+<a href="#" class="btn btn-primary" onclick="openModal()">Book Test Drive</a>
+
+<!-- Modal Popup -->
+<div class="modal" id="testDriveModal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h2>Book Your Test Drive</h2>
+        <form onsubmit="bookTestDrive(event)">
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+
+            <label>Email:</label>
+            <input type="email" id="email" placeholder="Enter Your Email" required>
+
+            <label>Phone:</label>
+            <input type="tel" id="phone" placeholder="Enter Phone Number" required>
+
+            <label>Select Car Model:</label>
+            <select id="carModel">
+                <option>Kia Seltos</option>
+                <option>Kia Sonet</option>
+                <option>Kia Cerato</option>
+                <option>Kia K900</option>
+            </select>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .navbar .nav-links {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar .nav-links li {
+            margin: 0 15px;
+        }
+
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        .navbar .nav-links a:hover {
+            color: #ccc;
+        }
+
+        .navbar .search-bar {
+            display: flex;
+            align-items: center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f3f3;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff0000;
+            font-size: 40px;
+        }
+
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .contact-info {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .contact-info h3 {
+            color: #ff0000;
+            font-size: 25px;
+        }
+
+        .contact-info p {
+            font-size: 18px;
+        }
+
+        form {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        input, textarea {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        button {
+            padding: 12px;
+            background: #ff0000;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: 0.4s;
+        }
+
+        button:hover {
+            background: #b30000;
+        }
+
+        iframe {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        .footer h5 {
+            margin-bottom: 20px;
+        }
+
+        .footer .row {
+            margin-bottom: 20px;
+        }
+
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer ul li {
+            margin: 5px 0;
+        }
+
+        .footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer ul li a:hover {
+            color: #ccc;
+        }
+
+        .footer .social-media a {
+            color: white;
+            margin-right: 15px;
+            font-size: 20px;
+        }
+
+        .footer .social-media a:hover {
+            color: #ccc;
+        }
+
+        .footer .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Newsletter Form */
+        .footer .newsletter input[type="email"] {
+            width: 70%;
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+        }
+
+        .footer .newsletter button {
+            padding: 10px 15px;
+            background-color: #f39c12;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
