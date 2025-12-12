@@ -47,7 +47,6 @@
   background: #f8f9fa;
 }
 
-/* Car Models */
 .car-models {
   text-align: center;
   padding: 60px 20px;
@@ -131,7 +130,6 @@
 
 
 
-        /* About Kia Section Styling */
         .about-kia {
             display: flex;
             align-items: center;
@@ -206,7 +204,6 @@
         }
 
 
-        /* Footer Section Styling */
         .footer {
             background-color:black;
             color: white;
@@ -254,7 +251,6 @@
             margin-top: 20px;
         }
 
-        /* Newsletter Form */
         .footer .newsletter input[type="email"] {
             width: 70%;
             padding: 10px;
@@ -272,6 +268,7 @@
             border-radius: 5px;
             font-size: 16px;
         }
+
 
 
 
